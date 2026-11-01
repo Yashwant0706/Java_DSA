@@ -7,8 +7,6 @@ public class TypeCasting {
         int x = ch;
         System.out.println(x); //implicit type casting
 
-        char yash = 'B';
-        int y = (int)ch;
-        System.out.println(y); //Explicit type casting
+
     }
 }
