@@ -5,8 +5,10 @@ public class TypeCasting {
         // Type casting- ek data type se doosra data type mein conversion
         char ch = 'A';
         int x = ch;
-        System.out.println(x); //implicit type casting
+        System.out.println(x); //implicit typecasting - converting value from one data type to another automatically
 
-
+        char yashwant = 'a';
+        int y = (int)yashwant;
+        System.out.println(y); // explicit typecasting - converting value from one data type to another manually
     }
 }
