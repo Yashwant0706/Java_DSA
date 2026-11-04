@@ -7,9 +7,8 @@ public class IsInteger {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the integer number : ");
         double n = sc.nextDouble();
-        int x = (int)n;
 
-        if(n-x == 0){
+        if(n == (int)n){
             System.out.println("The number "+n+" is an Integer");
         }
         else{
