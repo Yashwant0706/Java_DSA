@@ -18,14 +18,14 @@ public class IsDivisibleBy5and3 {
         if(n<0) n=-n;
         System.out.println(n);
 
-        if(n%5==0){
+         if(n%3==0 && n%5==0){
+            System.out.println("The number is divisible by 5 and 3 both");
+        }
+        else if(n%5==0){
             System.out.println("The number is divisible by 5");
         }
-        if(n%3==0){
+        else if(n%3==0){
             System.out.println("The number is divisible by 3");
-        }
-        if(n%3==0 && n%5==0){
-            System.out.println("The number is divisible by 5 and 3 both");
         }
         else{
             System.out.println("The number is not divisible by 5 or 3");
