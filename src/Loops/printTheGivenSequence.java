@@ -8,17 +8,8 @@ public class printTheGivenSequence {
         System.out.print("Enter the number n : ");
         int n = sc.nextInt();
 
-        int i = 1;
-        int j = n;
-
-        while(i <= j){
-            System.out.print(i+" ");
-            i++;
-
-            if(i <= j){
-                System.out.print(j+" ");
-                j--;
-            }
+        for(int i = 1; i <= n; i++){
+            System.out.print(i+" "+(n-i+1)+" ");
         }
     }
 }
