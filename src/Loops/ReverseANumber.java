@@ -11,10 +11,10 @@ public class ReverseANumber {
 
             int rev = 0;
 
-            while (n > 0) {
-                int rem = n % 10;
-                rev = rev * 10 + rem;
-                n = n / 10;
+            while (n != 0) {
+                rev *= 10;
+                rev += n%10;
+                n /= 10;
             }
 
             System.out.println("Reversed number: " + rev);
