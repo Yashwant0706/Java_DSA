@@ -1,8 +1,7 @@
 package Pattern_Printing;
 
-public class InvertedNumberTriangle {package Patterns;
-
-        public static void main(String[] args) {
+public class InvertedNumberTriangle {
+    public static void main(String[] args) {
 
             for(int i = 4; i >= 1; i--) {
 
